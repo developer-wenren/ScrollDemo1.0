@@ -112,7 +112,7 @@
     
     NSTimer *timer = [NSTimer timerWithTimeInterval:MoveIntervalTime target:self selector:@selector(makeScrollViewMove) userInfo:nil repeats:YES];
     
-    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
     
 }
 
